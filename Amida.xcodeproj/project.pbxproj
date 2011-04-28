@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6D1CB781369A754004D2B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1CB771369A754004D2B3A /* UIKit.framework */; };
+		B6D1CB7A1369A754004D2B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1CB791369A754004D2B3A /* Foundation.framework */; };
+		B6D1CB7C1369A754004D2B3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1CB7B1369A754004D2B3A /* CoreGraphics.framework */; };
+		B6D1CB821369A754004D2B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6D1CB801369A754004D2B3A /* InfoPlist.strings */; };
+		B6D1CB851369A754004D2B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D1CB841369A754004D2B3A /* main.m */; };
+		B6D1CB881369A754004D2B3A /* AmidaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D1CB871369A754004D2B3A /* AmidaAppDelegate.m */; };
+		B6D1CB8B1369A754004D2B3A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D1CB891369A754004D2B3A /* MainWindow.xib */; };
+		B6D1CB8E1369A754004D2B3A /* AmidaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D1CB8D1369A754004D2B3A /* AmidaViewController.m */; };
+		B6D1CB911369A754004D2B3A /* AmidaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D1CB8F1369A754004D2B3A /* AmidaViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6D1CB731369A754004D2B3A /* Amida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D1CB771369A754004D2B3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6D1CB791369A754004D2B3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6D1CB7B1369A754004D2B3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6D1CB7F1369A754004D2B3A /* Amida-Info.plist */ = {isa = PBXFileReference; path = "Amida-Info.plist"; sourceTree = "<group>"; };
+		B6D1CB811369A754004D2B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6D1CB831369A754004D2B3A /* Amida-Prefix.pch */ = {isa = PBXFileReference; path = "Amida-Prefix.pch"; sourceTree = "<group>"; };
+		B6D1CB841369A754004D2B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6D1CB861369A754004D2B3A /* AmidaAppDelegate.h */ = {isa = PBXFileReference; path = AmidaAppDelegate.h; sourceTree = "<group>"; };
+		B6D1CB871369A754004D2B3A /* AmidaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmidaAppDelegate.m; sourceTree = "<group>"; };
+		B6D1CB8A1369A754004D2B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B6D1CB8C1369A754004D2B3A /* AmidaViewController.h */ = {isa = PBXFileReference; path = AmidaViewController.h; sourceTree = "<group>"; };
+		B6D1CB8D1369A754004D2B3A /* AmidaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmidaViewController.m; sourceTree = "<group>"; };
+		B6D1CB901369A754004D2B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AmidaViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6D1CB701369A754004D2B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D1CB781369A754004D2B3A /* UIKit.framework in Frameworks */,
+				B6D1CB7A1369A754004D2B3A /* Foundation.framework in Frameworks */,
+				B6D1CB7C1369A754004D2B3A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6D1CB681369A754004D2B3A = {
+			isa = PBXGroup;
+			children = (
+				B6D1CB7D1369A754004D2B3A /* Amida */,
+				B6D1CB761369A754004D2B3A /* Frameworks */,
+				B6D1CB741369A754004D2B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6D1CB741369A754004D2B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6D1CB731369A754004D2B3A /* Amida.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D1CB761369A754004D2B3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6D1CB771369A754004D2B3A /* UIKit.framework */,
+				B6D1CB791369A754004D2B3A /* Foundation.framework */,
+				B6D1CB7B1369A754004D2B3A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6D1CB7D1369A754004D2B3A /* Amida */ = {
+			isa = PBXGroup;
+			children = (
+				B6D1CB861369A754004D2B3A /* AmidaAppDelegate.h */,
+				B6D1CB871369A754004D2B3A /* AmidaAppDelegate.m */,
+				B6D1CB891369A754004D2B3A /* MainWindow.xib */,
+				B6D1CB8C1369A754004D2B3A /* AmidaViewController.h */,
+				B6D1CB8D1369A754004D2B3A /* AmidaViewController.m */,
+				B6D1CB8F1369A754004D2B3A /* AmidaViewController.xib */,
+				B6D1CB7E1369A754004D2B3A /* Supporting Files */,
+			);
+			path = Amida;
+			sourceTree = "<group>";
+		};
+		B6D1CB7E1369A754004D2B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D1CB7F1369A754004D2B3A /* Amida-Info.plist */,
+				B6D1CB801369A754004D2B3A /* InfoPlist.strings */,
+				B6D1CB831369A754004D2B3A /* Amida-Prefix.pch */,
+				B6D1CB841369A754004D2B3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6D1CB721369A754004D2B3A /* Amida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D1CB941369A754004D2B3A /* Build configuration list for PBXNativeTarget "Amida" */;
+			buildPhases = (
+				B6D1CB6F1369A754004D2B3A /* Sources */,
+				B6D1CB701369A754004D2B3A /* Frameworks */,
+				B6D1CB711369A754004D2B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amida;
+			productName = Amida;
+			productReference = B6D1CB731369A754004D2B3A /* Amida.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6D1CB6A1369A754004D2B3A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B6D1CB6D1369A754004D2B3A /* Build configuration list for PBXProject "Amida" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6D1CB681369A754004D2B3A;
+			productRefGroup = B6D1CB741369A754004D2B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6D1CB721369A754004D2B3A /* Amida */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6D1CB711369A754004D2B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D1CB821369A754004D2B3A /* InfoPlist.strings in Resources */,
+				B6D1CB8B1369A754004D2B3A /* MainWindow.xib in Resources */,
+				B6D1CB911369A754004D2B3A /* AmidaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6D1CB6F1369A754004D2B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D1CB851369A754004D2B3A /* main.m in Sources */,
+				B6D1CB881369A754004D2B3A /* AmidaAppDelegate.m in Sources */,
+				B6D1CB8E1369A754004D2B3A /* AmidaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6D1CB801369A754004D2B3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D1CB811369A754004D2B3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6D1CB891369A754004D2B3A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D1CB8A1369A754004D2B3A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B6D1CB8F1369A754004D2B3A /* AmidaViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D1CB901369A754004D2B3A /* en */,
+			);
+			name = AmidaViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6D1CB921369A754004D2B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6D1CB931369A754004D2B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B6D1CB951369A754004D2B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amida/Amida-Prefix.pch";
+				INFOPLIST_FILE = "Amida/Amida-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6D1CB961369A754004D2B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amida/Amida-Prefix.pch";
+				INFOPLIST_FILE = "Amida/Amida-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6D1CB6D1369A754004D2B3A /* Build configuration list for PBXProject "Amida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D1CB921369A754004D2B3A /* Debug */,
+				B6D1CB931369A754004D2B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D1CB941369A754004D2B3A /* Build configuration list for PBXNativeTarget "Amida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D1CB951369A754004D2B3A /* Debug */,
+				B6D1CB961369A754004D2B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6D1CB6A1369A754004D2B3A /* Project object */;
+}
