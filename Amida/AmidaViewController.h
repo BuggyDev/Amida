@@ -1,15 +1,19 @@
-//
-//  AmidaViewController.h
-//  Amida
-//
-//  Created by Buggy on 11/04/28.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 
-@interface AmidaViewController : UIViewController {
-    
+@class AmidaAppDelegate;
+@class AmidaDetailViewController;
+@class AmidaHistoryViewController;
+
+@interface AmidaViewController : UIViewController
+{
+    AmidaAppDelegate *delegate;
+    AmidaDetailViewController *detailViewController;
+    AmidaHistoryViewController *historyViewController;
+    UINavigationController *navigationController;
 }
+
+- (IBAction)createNewAmida;
+- (IBAction)history;
 
 @end

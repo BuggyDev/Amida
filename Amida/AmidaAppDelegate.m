@@ -1,10 +1,3 @@
-//
-//  AmidaAppDelegate.m
-//  Amida
-//
-//  Created by Buggy on 11/04/28.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
 
 #import "AmidaAppDelegate.h"
 
@@ -17,14 +10,35 @@
 
 @synthesize viewController=_viewController;
 
+static AmidaAppDelegate *_sharedInstance = nil;
+
++ (AmidaAppDelegate *)sharedController
+{
+    return _sharedInstance;
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
      
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+- (id)init
+{
+    [super init];
+    if (!self)
+    {
+        return nil;
+    }
+    
+    _sharedInstance = self;
+    
+    return self;
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

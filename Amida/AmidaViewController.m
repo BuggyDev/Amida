@@ -1,12 +1,7 @@
-//
-//  AmidaViewController.m
-//  Amida
-//
-//  Created by Buggy on 11/04/28.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
 
+#import "AmidaAppDelegate.h"
 #import "AmidaViewController.h"
+#import "AmidaHistoryViewController.h"
 
 @implementation AmidaViewController
 
@@ -45,5 +40,32 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+#pragma mark - Action
+
+//Newボタンが押されたら呼ばれるアクションメソッド
+- (IBAction)createNewAmida
+{
+    contentsViewController = [[AMiContentsViewController alloc] initWithNibName:@"AMiContentsViewController" bundle:nil];
+    [contentsViewController autorelease];
+    
+    [navigationController pushViewController:contentsViewController animated:YES];
+    
+    [delegate.window addSubview:navigationController.view];
+}
+
+//Historyボタンが押されたら呼ばれるアクションメソッド
+- (IBAction)history
+{
+    historyViewController = [[AmidaHistoryViewController alloc] initWithNibName:
+                             @"AmidaHistoryViewController" bundle:nil];
+    [historyViewController autorelease];
+    
+    [navigationController pushViewController:historyViewController animated:YES];
+    [delegate.window addSubview:navigationController.view];
+    
+    
+}
+
 
 @end
