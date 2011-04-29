@@ -45,10 +45,10 @@
 		return nil;
 	}
 		
-	_identifier = [[decoder decodeObjectForKey:@"identifier"] retain];
-	_title = [[decoder decodeObjectForKey:@"title"] retain];
+    _identifier = [[decoder decodeObjectForKey:@"identifier"] retain];
+    _title = [[decoder decodeObjectForKey:@"title"] retain];
     _choice = [decoder decodeIntegerForKey:@"choice"];
-	_icons = [[decoder decodeObjectForKey:@"icons"] retain];
+    _icons = [[decoder decodeObjectForKey:@"icons"] retain];
     
     [self load];
     
