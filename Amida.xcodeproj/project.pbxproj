@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61E2127136A6D1800008B8A /* AmidaSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = B61E2126136A6D1800008B8A /* AmidaSettings.m */; };
 		B6D1CB781369A754004D2B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1CB771369A754004D2B3A /* UIKit.framework */; };
 		B6D1CB7A1369A754004D2B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1CB791369A754004D2B3A /* Foundation.framework */; };
 		B6D1CB7C1369A754004D2B3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1CB7B1369A754004D2B3A /* CoreGraphics.framework */; };
@@ -16,23 +17,30 @@
 		B6D1CB8B1369A754004D2B3A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D1CB891369A754004D2B3A /* MainWindow.xib */; };
 		B6D1CB8E1369A754004D2B3A /* AmidaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D1CB8D1369A754004D2B3A /* AmidaViewController.m */; };
 		B6D1CB911369A754004D2B3A /* AmidaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D1CB8F1369A754004D2B3A /* AmidaViewController.xib */; };
+		B6D1CBA71369AE7B004D2B3A /* AmidaHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D1CBA51369AE7B004D2B3A /* AmidaHistoryViewController.m */; };
+		B6D1CBA81369AE7B004D2B3A /* AmidaHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D1CBA61369AE7B004D2B3A /* AmidaHistoryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B61E2125136A6D1800008B8A /* AmidaSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmidaSettings.h; sourceTree = "<group>"; };
+		B61E2126136A6D1800008B8A /* AmidaSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmidaSettings.m; sourceTree = "<group>"; };
 		B6D1CB731369A754004D2B3A /* Amida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amida.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D1CB771369A754004D2B3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6D1CB791369A754004D2B3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6D1CB7B1369A754004D2B3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B6D1CB7F1369A754004D2B3A /* Amida-Info.plist */ = {isa = PBXFileReference; path = "Amida-Info.plist"; sourceTree = "<group>"; };
+		B6D1CB7F1369A754004D2B3A /* Amida-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Amida-Info.plist"; sourceTree = "<group>"; };
 		B6D1CB811369A754004D2B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B6D1CB831369A754004D2B3A /* Amida-Prefix.pch */ = {isa = PBXFileReference; path = "Amida-Prefix.pch"; sourceTree = "<group>"; };
+		B6D1CB831369A754004D2B3A /* Amida-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Amida-Prefix.pch"; sourceTree = "<group>"; };
 		B6D1CB841369A754004D2B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B6D1CB861369A754004D2B3A /* AmidaAppDelegate.h */ = {isa = PBXFileReference; path = AmidaAppDelegate.h; sourceTree = "<group>"; };
+		B6D1CB861369A754004D2B3A /* AmidaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmidaAppDelegate.h; sourceTree = "<group>"; };
 		B6D1CB871369A754004D2B3A /* AmidaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmidaAppDelegate.m; sourceTree = "<group>"; };
 		B6D1CB8A1369A754004D2B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		B6D1CB8C1369A754004D2B3A /* AmidaViewController.h */ = {isa = PBXFileReference; path = AmidaViewController.h; sourceTree = "<group>"; };
+		B6D1CB8C1369A754004D2B3A /* AmidaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmidaViewController.h; sourceTree = "<group>"; };
 		B6D1CB8D1369A754004D2B3A /* AmidaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmidaViewController.m; sourceTree = "<group>"; };
 		B6D1CB901369A754004D2B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AmidaViewController.xib; sourceTree = "<group>"; };
+		B6D1CBA41369AE7B004D2B3A /* AmidaHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmidaHistoryViewController.h; sourceTree = "<group>"; };
+		B6D1CBA51369AE7B004D2B3A /* AmidaHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmidaHistoryViewController.m; sourceTree = "<group>"; };
+		B6D1CBA61369AE7B004D2B3A /* AmidaHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmidaHistoryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,11 @@
 				B6D1CB8C1369A754004D2B3A /* AmidaViewController.h */,
 				B6D1CB8D1369A754004D2B3A /* AmidaViewController.m */,
 				B6D1CB8F1369A754004D2B3A /* AmidaViewController.xib */,
+				B6D1CBA41369AE7B004D2B3A /* AmidaHistoryViewController.h */,
+				B6D1CBA51369AE7B004D2B3A /* AmidaHistoryViewController.m */,
+				B6D1CBA61369AE7B004D2B3A /* AmidaHistoryViewController.xib */,
+				B61E2125136A6D1800008B8A /* AmidaSettings.h */,
+				B61E2126136A6D1800008B8A /* AmidaSettings.m */,
 				B6D1CB7E1369A754004D2B3A /* Supporting Files */,
 			);
 			path = Amida;
@@ -151,6 +164,7 @@
 				B6D1CB821369A754004D2B3A /* InfoPlist.strings in Resources */,
 				B6D1CB8B1369A754004D2B3A /* MainWindow.xib in Resources */,
 				B6D1CB911369A754004D2B3A /* AmidaViewController.xib in Resources */,
+				B6D1CBA81369AE7B004D2B3A /* AmidaHistoryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +178,8 @@
 				B6D1CB851369A754004D2B3A /* main.m in Sources */,
 				B6D1CB881369A754004D2B3A /* AmidaAppDelegate.m in Sources */,
 				B6D1CB8E1369A754004D2B3A /* AmidaViewController.m in Sources */,
+				B6D1CBA71369AE7B004D2B3A /* AmidaHistoryViewController.m in Sources */,
+				B61E2127136A6D1800008B8A /* AmidaSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +292,7 @@
 				B6D1CB961369A754004D2B3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
